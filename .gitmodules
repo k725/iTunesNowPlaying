@@ -1,0 +1,3 @@
+[submodule "iTunesNowPlaying/iTunesLibrary"]
+	path = iTunesNowPlaying/iTunesLibrary
+	url = https://github.com/jasonsch/iTunesLibrary.git

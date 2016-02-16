@@ -64,11 +64,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="iTunesLibrary\Album.cs" />
-    <Compile Include="iTunesLibrary\Artist.cs" />
-    <Compile Include="iTunesLibrary\iTunesLibrary.cs" />
-    <Compile Include="iTunesLibrary\Playlist.cs" />
-    <Compile Include="iTunesLibrary\Song.cs" />
+    <Compile Include="iTunesLibrary\iTunesLibrary\Album.cs" />
+    <Compile Include="iTunesLibrary\iTunesLibrary\Artist.cs" />
+    <Compile Include="iTunesLibrary\iTunesLibrary\iTunesLibrary.cs" />
+    <Compile Include="iTunesLibrary\iTunesLibrary\Playlist.cs" />
+    <Compile Include="iTunesLibrary\iTunesLibrary\Song.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -113,7 +113,7 @@
     </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
