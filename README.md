@@ -1,6 +1,12 @@
 iTunesNowPlaying
 ================
 
+![Sample](https://pic.hoshinoa.me/sOGiB1.png)
+
+--------
+
+Add Song.cs
+
 ```
 public int TrackNum
 {
